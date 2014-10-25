@@ -78,6 +78,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidHead.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidLeftArm.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidLeftLeg.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidRightArm.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidRightLeg.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidTorso.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AssembleAndroid.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\Camera.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\Controls.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\main.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\Materials.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\Texturing.h" />
+    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\UserInterface.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
