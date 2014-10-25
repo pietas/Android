@@ -78,22 +78,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidHead.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidLeftArm.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidLeftLeg.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidRightArm.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidRightLeg.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AndroidTorso.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\AssembleAndroid.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\Camera.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\Controls.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\main.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\Materials.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\Texturing.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\UserInterface.h" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\Android\main.cpp" />
+    <ClInclude Include="AndroidHead.h" />
+    <ClInclude Include="AndroidLeftArm.h" />
+    <ClInclude Include="AndroidLeftLeg.h" />
+    <ClInclude Include="AndroidRightArm.h" />
+    <ClInclude Include="AndroidRightLeg.h" />
+    <ClInclude Include="AndroidTorso.h" />
+    <ClInclude Include="AssembleAndroid.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Materials.h" />
+    <ClInclude Include="Texturing.h" />
+    <ClInclude Include="UserInterface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
